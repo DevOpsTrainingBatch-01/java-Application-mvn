@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello Team, This DevOps Training. Presenter - Sandeep Siyadri";
+        return "maven application successfully running";
     }
 }
