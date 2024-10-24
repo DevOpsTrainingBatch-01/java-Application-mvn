@@ -21,6 +21,6 @@ public class HelloworldApplicationTests {
     public void testHelloEndpoint() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/"))
                 .andExpect(status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("Hello Team, This is DevOps Training"));
+                .andExpect(MockMvcResultMatchers.content().string("maven application successfully running"));
     }
 }
